@@ -28,6 +28,17 @@
     <div id="carousel"></div>
   </div>
 
+  <script id="judgestpl" type="text/template">
+    {{! sections are used to cycle through an array}}
+    {{#judges}}
+      <div class="judge">
+        <img src="images/{{validName}}" alt="Photo of {{name}}">
+        <h3>{{name}}</h3>
+        <h4>{{school}}</h4>
+        <p>{{bio}}</p>
+      </div>
+    {{/judges}}
+  </script>
 
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -37,5 +48,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js" charset="utf-8"></script>
   <!-- My JS -->
   <script src="js/script.js"></script>
+  <script>
+    $(function() {
+      $.getJSON('data.json', function name(data) {
+        var template = $('#judgestpl').html();
+        var html = Mustache.to_html(template, data);
+        $('#carousel').html(html);
+      }); //getJSON
+    }); //DOM ready
+  </script>
 </body>
 </html>

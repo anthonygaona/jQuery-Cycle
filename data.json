@@ -2,26 +2,31 @@
   "judges" : [
     {
       "name" : "Anthony Roberts",
+      "validName" : "anthony_roberts",
       "school" : "CSUN",
       "bio" : "Billionaire Playboy"
     },
     {
       "name" : "John Grey",
+      "validName" : "john_grey",
       "school" : "UCLA",
       "bio" : "Full Time Nerd"
     },
     {
       "name" : "Marky Chug",
+      "validName" : "marky_chug",
       "school" : "PCC",
       "bio" : "Scientist"
     },
     {
       "name" : "Ben Kenobi",
+      "validName" : "ben_kenobi",
       "school" : "Jedi Academy",
       "bio" : "Keeper of the peace"
     },
     {
       "name" : "George Bush",
+      "validName" : "george_bush",
       "school" : "Princeton",
       "bio" : "Reconstructed America"
     }
