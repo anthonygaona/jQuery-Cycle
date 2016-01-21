@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700);
+
+$bg : #ffcccc;
+
+body {
+  background: #ccc;
+  font-family: 'lato', arial, sans-serif;
+}
+
+#judges {
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: $bg;
+  padding: 1px 20px;
+  border-radius: 20px;
+  h3, h4 {
+    font-weight: 700;
+    margin:0;
+    padding: 0;
+  }
+  h3 {
+    font-size: 2em;
+    line-height: .9em;
+    color: blue;
+  }
+  h4 {
+    color: orange;
+    font-weight: 400;
+    margin-bottom: 5px;
+    line-height: 1.2em;
+  }
+  img {
+    width: 100%;
+    height:100%;
+    float:right;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+  p {
+    color: white;
+    font-size: .9em;
+  }
+  #next_btn, #prev_btn {
+    background: black;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    a#next_btn, a#prev_btn {
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700);
+body {
+  background: #ccc;
+  font-family: 'lato', arial, sans-serif; }
+
+#judges {
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #ffcccc;
+  padding: 1px 20px;
+  border-radius: 20px; }
+  #judges h3, #judges h4 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0; }
+  #judges h3 {
+    font-size: 2em;
+    line-height: .9em;
+    color: blue; }
+  #judges h4 {
+    color: orange;
+    font-weight: 400;
+    margin-bottom: 5px;
+    line-height: 1.2em; }
+  #judges img {
+    width: 100%;
+    height: 100%;
+    float: right;
+    margin-left: 10px;
+    border-radius: 10px; }
+  #judges p {
+    color: white;
+    font-size: .9em; }
+  #judges #next_btn, #judges #prev_btn {
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    display: inline-block; }
+    #judges #next_btn a#next_btn, #judges #next_btn a#prev_btn, #judges #prev_btn a#next_btn, #judges #prev_btn a#prev_btn {
+      text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

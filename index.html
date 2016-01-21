@@ -25,6 +25,8 @@
 </head>
 <body>
   <div id="judges">
+    <a href="#" id="prev_btn">Previous</a>
+    <a href="#" id="next_btn">Next</a>
     <div id="carousel"></div>
   </div>
 
@@ -54,6 +56,15 @@
         var template = $('#judgestpl').html();
         var html = Mustache.to_html(template, data);
         $('#carousel').html(html);
+
+        $('#carousel').cycle({
+          fx: 'fade',
+          pause: 1,
+          next: '#next_btn',
+          prev: '#prev_btn',
+          speed: 500,
+          timeout: 1000
+        });
       }); //getJSON
     }); //DOM ready
   </script>
