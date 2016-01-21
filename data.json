@@ -1,0 +1,29 @@
+{
+  "judges" : [
+    {
+      "name" : "Anthony Roberts",
+      "school" : "CSUN",
+      "bio" : "Billionaire Playboy"
+    },
+    {
+      "name" : "John Grey",
+      "school" : "UCLA",
+      "bio" : "Full Time Nerd"
+    },
+    {
+      "name" : "Marky Chug",
+      "school" : "PCC",
+      "bio" : "Scientist"
+    },
+    {
+      "name" : "Ben Kenobi",
+      "school" : "Jedi Academy",
+      "bio" : "Keeper of the peace"
+    },
+    {
+      "name" : "George Bush",
+      "school" : "Princeton",
+      "bio" : "Reconstructed America"
+    }
+  ]
+}
